@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023.11.22</title>
+</head>
+<body>
+    <h2>var, let, const</h2>
+    <script>
+        var a = 10;  // var - 재선언 O, 값변경 O
+        var a = 18;
+        document.write(a + '<br>');
+
+        let b = 10;  // let - 재선언 X, 값변경 O
+        b = 18;
+        document.write(b + '<br>');
+
+        const c = 10;  // const - 재선언 X, 값변경 X
+        c = 18;
+        document.write(c + '<br>');
+    </script>
+    
+</body>
+</html>
