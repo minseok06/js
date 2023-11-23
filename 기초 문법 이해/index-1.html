@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기초</title>
+</head>
+<body>
+    <h2>국영수 성적</h2>
+
+    <script>
+        let a = [90, 60, 40];
+        // [0] [1] [2]
+
+        document.write("국어: " + a[0] + "<br>");
+        document.write("영어: " + a[1] + "<br>");
+        document.write("수학: " + a[2] + "<br>");
+
+        let b = {
+            국어: 90,
+            영어: 60,
+            수학: 40
+        }
+        document.write("국어: " + b["국어"] + "<br>");
+        document.write("영어: " + b["영어"] + "<br>");
+        document.write("수학: " + b["수학"] + "<br>");
+        document.write(`수학: ${b["수학"]} <br>`);
+
+        for(let key in b) { // c라는 변수가 b를 한바퀴 돌아라~
+            document.write(`${key} : ${b[key]} <br>`);
+        }
+    </script>
+</body>
+</html>
