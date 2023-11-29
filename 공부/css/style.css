@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.all{
+    width: 1200px;
+    height: 3000px;
+}
+.box1{
+    text-align: center;
+    background: skyblue;
+}
+.box2{
+    border: solid 1px;
+}
