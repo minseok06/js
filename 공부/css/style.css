@@ -1,6 +1,8 @@
 *{
     margin: 0 auto;
     padding: 0;
+    background: black;
+    color: white;
 }
 .all{
     width: 1200px;
