@@ -107,6 +107,7 @@ body{
     content: "";
     position: absolute;
     left: 0;
+    right: 0;
     right: inherit;
     top: -10px;
     bottom: -10px;
