@@ -9,7 +9,16 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #f1f4fd;
+    background: #fcfdf1;
+}
+
+h1, h4{
+    text-align: center;
+}
+
+h4{
+    margin-bottom: 30px;
+    font-weight: 500;
 }
 
 .container{
@@ -30,7 +39,7 @@ body{
     color: #fff;
     border: none;
     outline: none;
-    background: #000;
+    background: #67b43b;
     font-size: 2.2rem;
     cursor: pointer;
     border-radius: 50%;
@@ -38,7 +47,7 @@ body{
 }
 
 .slider-wrapper .slide-button:hover {
-    background: #444;
+    background: #a6c286;
 }
 
 .slider-wrapper .slide-button#prev-slide {
@@ -93,7 +102,7 @@ body{
     position: absolute;
     height: 100%;
     width: 50%;
-    background: #000;
+    background: #ff8800;
     border-radius: inherit;
     cursor: grab;
 }
