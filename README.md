@@ -1,3 +1,5 @@
+## Image Slider
+![image](https://github.com/user-attachments/assets/8869f126-a8ff-44c5-be5a-89b3cb9e0777)
 ## 자바스크립트 기초
 ```js
 var a = 10;  // var - 재선언 O, 값변경 O
